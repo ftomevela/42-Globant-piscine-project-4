@@ -1,0 +1,71 @@
+/* src/pages/Home.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Cambia a la fuente que prefieras */
+    background-color: #f9f9f9; /* Color de fondo suave */
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    padding: 20px;
+    text-align: center; /* Centrar el texto */
+}
+
+h1 {
+    font-size: 2.5rem; /* Tamaño de fuente grande */
+    color: #333; /* Color de texto oscuro */
+    margin-bottom: 20px; /* Espaciado inferior */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+p {
+    font-size: 1.2rem; /* Tamaño de fuente moderado */
+    color: #555; /* Color de texto intermedio */
+    max-width: 600px; /* Ancho máximo para evitar que se estire demasiado */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+.button {
+    padding: 10px 20px; /* Espaciado interior */
+    font-size: 1rem; /* Tamaño de fuente del botón */
+    color: #fff; /* Color de texto del botón */
+    background-color: #36383a; /* Color de fondo del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.button:hover {
+    background-color: #4a4f53; /* Color de fondo del botón al pasar el ratón */
+}
+
+video {
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    width: 100%; /* Ancho completo */
+    max-width: 600px; /* Ancho máximo */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+img {
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+	width: 100%; /* Ancho completo */
+    max-width: 600%; /* Ancho máximo */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.button {
+    margin-top: 20px; /* Espaciado superior para los botones */
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}

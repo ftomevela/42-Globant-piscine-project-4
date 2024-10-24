@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-menu li a {
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-menu li a:hover {
+    color: #635f5f;
+}
+
+
+  
